@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblia Online</title>
+<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Biblia Online</h1>
+    <div class="input-container">
+      <label for="book">Libro:</label>
+      <input type="text" id="book" placeholder="Ejemplo: John">
+    </div>
+    <div class="input-container">
+      <label for="chapter">Capítulo:</label>
+      <input type="number" id="chapter" min="1" placeholder="Ejemplo: 3">
+    </div>
+    <div class="input-container">
+      <label for="verse">Versículo:</label>
+      <input type="number" id="verse" min="1" placeholder="Ejemplo: 16">
+    </div>
+    <button id="search-btn">Buscar Versículo</button>
+    <div id="verse-display"></div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
